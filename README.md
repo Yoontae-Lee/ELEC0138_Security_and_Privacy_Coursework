@@ -156,13 +156,11 @@ After Terminal 1 and Terminal 2 are both running, you can access the mock bankin
 7. Run the same attack again.
 8. Compare the results before and after the defence is enabled.
 
-## Optional Local Conda Environment
+## Optional Conda Environment
 
 Docker is the recommended way to run this project. However, if you want a local Python environment for testing or development, you can also use Conda with `requirements.txt`.
 
 ```bash
-conda create -n mock-banking-system python=3.11 -y
-conda activate mock-banking-system
 pip install -r requirements.txt
 ```
 
