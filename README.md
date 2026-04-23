@@ -45,7 +45,8 @@ project_root/
 ├── models.py
 ├── mfa_mailer.py
 ├── run.py
-└── requirements.txt
+├── requirements.txt
+└── environment.yml
 ```
 
 ## Project Setup
@@ -158,7 +159,32 @@ After Terminal 1 and Terminal 2 are both running, you can access the mock bankin
 
 ## Optional Conda Environment
 
-Docker is the recommended way to run this project. However, if you want a local Python environment for testing or development, you can also use Conda with `requirements.txt`.
+Docker is the recommended way to run this project. However, if you want a local Python environment for testing or development, you can use Conda in either of the following two ways.
+
+### Option 1 — Use `environment.yml`
+
+If you have an `environment.yml` file, you can create the environment directly with:
+
+```bash
+conda env create -f environment.yml
+conda activate myenv
+```
+
+Example `environment.yml`:
+
+```yaml
+name: myenv
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - Flask==3.1.3
+      - requests==2.33.0
+```
+
+### Option 2 — Use `requirements.txt`
+
+You can also create a Conda environment first and then install dependencies from `requirements.txt`:
 
 ```bash
 pip install -r requirements.txt
@@ -172,3 +198,21 @@ Depending on your folder layout, you may need to adjust paths or environment var
 - Use `docker compose restart banking_server` when you only need to restart the server.
 - Check the audit page to monitor system activity and security-related events during testing.
 - The project includes both web routes and API routes for demonstrating normal banking behaviour and attack scenarios.
+=======
+Example `requirements.txt`:
+
+```txt
+Flask==3.1.3
+requests==2.33.0
+```
+
+Important notes:
+
+- Python 3.11 should be specified when creating the Conda environment, for example with `conda create -n mock-banking-system python=3.11`.
+- `requirements.txt` should contain Python packages such as Flask and requests.
+- Do not write `python=3.11` inside `requirements.txt`.
+- If you want to specify the Python version in a file, use `environment.yml` instead.
+
+## Local Run Notes
+
+
