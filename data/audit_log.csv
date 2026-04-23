@@ -1,0 +1,25 @@
+timestamp,event_type,user_id,account_id,device_id,location,success,details
+2026-04-23T04:03:08.368446,LOGIN_SUCCESS,alice.kim42,ACC-66F349D6,DEVICE-ALICE-HOME-001,"London, UK",True,new_device=True;mfa=disabled
+2026-04-23T04:03:08.369284,ADD_BENEFICIARY,alice.kim42,ACC-66F349D6,DEVICE-ALICE-HOME-001,"London, UK",True,beneficiary=ACC-3B545708;nickname=Bob (friend)
+2026-04-23T04:03:08.372244,TRANSFER_COMPLETED,alice.kim42,ACC-66F349D6,DEVICE-ALICE-HOME-001,"London, UK",True,to=ACC-3B545708;amount=200.00;txn=TXN-48ADD8DF88
+2026-04-23T04:03:08.374995,LOGIN_FAILED,alice.kim42,ACC-66F349D6,DEVICE-UNKNOWN-999,"Lagos, NG",False,Bad credentials;attempts=1
+2026-04-23T04:03:46.406312,LOGIN_SUCCESS,thomas.evans90,ACC-0824FDD8,BROWSER-HOME-001,"Cambridge, UK",True,new_device=True;mfa=disabled
+2026-04-23T04:03:46.411313,LOGIN_SUCCESS,david.thomas90,ACC-02079B07,BROWSER-HOME-001,"Manchester, UK",True,new_device=True;mfa=disabled
+2026-04-23T04:03:46.415290,LOGIN_SUCCESS,emma.brown18,ACC-4828A96C,BROWSER-HOME-001,"Nottingham, UK",True,new_device=True;mfa=disabled
+2026-04-23T04:03:46.419608,LOGIN_SUCCESS,william.robinson52,ACC-827E0674,BROWSER-HOME-001,"Oxford, UK",True,new_device=True;mfa=disabled
+2026-04-23T04:03:46.423421,LOGIN_SUCCESS,charlie.smith82,ACC-14EBC916,BROWSER-HOME-001,"Southampton, UK",True,new_device=True;mfa=disabled
+2026-04-23T04:03:46.427833,LOGIN_SUCCESS,george.johnson23,ACC-2B9E4F80,BROWSER-HOME-001,"Brighton, UK",True,new_device=True;mfa=disabled
+2026-04-23T04:03:46.431820,LOGIN_SUCCESS,jessica.clark30,ACC-4A456012,BROWSER-HOME-001,"Manchester, UK",True,new_device=True;mfa=disabled
+2026-04-23T04:03:46.435594,LOGIN_SUCCESS,jacob.davies55,ACC-E653C066,BROWSER-HOME-001,"Newcastle, UK",True,new_device=True;mfa=disabled
+2026-04-23T04:03:46.439263,LOGIN_SUCCESS,alice.kim42,ACC-66F349D6,BROWSER-HOME-001,"London, UK",True,new_device=True;mfa=disabled
+2026-04-23T04:03:46.443111,LOGIN_SUCCESS,harry.harris38,ACC-0A64F46E,BROWSER-HOME-001,"Bristol, UK",True,new_device=True;mfa=disabled
+2026-04-23T04:03:46.445362,ACCOUNT_DATA_EXPOSED,thomas.evans90,ACC-0824FDD8,BROWSER-HOME-001,"Cambridge, UK",True,api=/api/account;data_minimised=false;source_ip=192.168.10.20
+2026-04-23T04:03:46.446736,ACCOUNT_DATA_EXPOSED,david.thomas90,ACC-02079B07,BROWSER-HOME-001,"Manchester, UK",True,api=/api/account;data_minimised=false;source_ip=192.168.10.20
+2026-04-23T04:03:46.448083,ACCOUNT_DATA_EXPOSED,emma.brown18,ACC-4828A96C,BROWSER-HOME-001,"Nottingham, UK",True,api=/api/account;data_minimised=false;source_ip=192.168.10.20
+2026-04-23T04:03:46.449232,ACCOUNT_DATA_EXPOSED,william.robinson52,ACC-827E0674,BROWSER-HOME-001,"Oxford, UK",True,api=/api/account;data_minimised=false;source_ip=192.168.10.20
+2026-04-23T04:03:46.450386,ACCOUNT_DATA_EXPOSED,charlie.smith82,ACC-14EBC916,BROWSER-HOME-001,"Southampton, UK",True,api=/api/account;data_minimised=false;source_ip=192.168.10.20
+2026-04-23T04:03:46.451526,ACCOUNT_DATA_EXPOSED,george.johnson23,ACC-2B9E4F80,BROWSER-HOME-001,"Brighton, UK",True,api=/api/account;data_minimised=false;source_ip=192.168.10.20
+2026-04-23T04:03:46.452651,ACCOUNT_DATA_EXPOSED,jessica.clark30,ACC-4A456012,BROWSER-HOME-001,"Manchester, UK",True,api=/api/account;data_minimised=false;source_ip=192.168.10.20
+2026-04-23T04:03:46.453706,ACCOUNT_DATA_EXPOSED,jacob.davies55,ACC-E653C066,BROWSER-HOME-001,"Newcastle, UK",True,api=/api/account;data_minimised=false;source_ip=192.168.10.20
+2026-04-23T04:03:46.455022,ACCOUNT_DATA_EXPOSED,alice.kim42,ACC-66F349D6,BROWSER-HOME-001,"London, UK",True,api=/api/account;data_minimised=false;source_ip=192.168.10.20
+2026-04-23T04:03:46.456382,ACCOUNT_DATA_EXPOSED,harry.harris38,ACC-0A64F46E,BROWSER-HOME-001,"Bristol, UK",True,api=/api/account;data_minimised=false;source_ip=192.168.10.20

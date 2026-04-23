@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SecureBank - Sign in</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@300;400;500&display=swap');
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --bg:      #0a0c0f;
+    --surface: #111418;
+    --border:  #1e2329;
+    --text:    #e2e8f0;
+    --muted:   #64748b;
+    --accent:  #22c55e;
+    --warn:    #f59e0b;
+    --danger:  #ef4444;
+    --mono:    'IBM Plex Mono', monospace;
+    --sans:    'IBM Plex Sans', sans-serif;
+  }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: var(--sans);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .wrap {
+    width: 100%;
+    max-width: 440px;
+    padding: 0 24px;
+  }
+
+  .logo {
+    font-family: var(--mono);
+    font-size: 13px;
+    color: var(--accent);
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .logo::before {
+    content: '';
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background: var(--accent);
+    border-radius: 50%;
+  }
+
+  h1 {
+    font-weight: 300;
+    font-size: 28px;
+    letter-spacing: -0.02em;
+    margin-bottom: 24px;
+  }
+
+  .sub {
+    color: var(--muted);
+    font-size: 14px;
+    margin-bottom: 28px;
+    line-height: 1.6;
+  }
+
+  .field { margin-bottom: 20px; }
+
+  label {
+    display: block;
+    font-family: var(--mono);
+    font-size: 11px;
+    letter-spacing: 0.1em;
+    color: var(--muted);
+    text-transform: uppercase;
+    margin-bottom: 8px;
+  }
+
+  input[type=text], input[type=password] {
+    width: 100%;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    color: var(--text);
+    font-family: var(--mono);
+    font-size: 14px;
+    padding: 12px 16px;
+    border-radius: 4px;
+    outline: none;
+  }
+
+  input:focus { border-color: var(--accent); }
+
+  .row { display: flex; gap: 12px; }
+  .row .field { flex: 1; }
+
+  .notice,
+  .error,
+  .hint {
+    border-radius: 4px;
+    font-size: 13px;
+    padding: 12px 14px;
+    margin-bottom: 20px;
+    font-family: var(--mono);
+    line-height: 1.7;
+  }
+
+  .notice {
+    background: rgba(245, 158, 11, 0.08);
+    border: 1px solid rgba(245, 158, 11, 0.3);
+    color: #fcd34d;
+  }
+
+  .error {
+    background: rgba(239, 68, 68, 0.1);
+    border: 1px solid rgba(239, 68, 68, 0.3);
+    color: var(--danger);
+  }
+
+  .hint {
+    background: rgba(34, 197, 94, 0.08);
+    border: 1px solid rgba(34, 197, 94, 0.25);
+    color: var(--text);
+  }
+
+  .hint strong { color: var(--accent); }
+
+  button[type=submit],
+  .link-button {
+    width: 100%;
+    background: var(--accent);
+    color: #000;
+    border: none;
+    font-family: var(--mono);
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    padding: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 8px;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+  }
+
+  .link-button {
+    background: transparent;
+    border: 1px solid var(--border);
+    color: var(--muted);
+  }
+
+  .meta {
+    margin-top: 28px;
+    padding-top: 20px;
+    border-top: 1px solid var(--border);
+    font-family: var(--mono);
+    font-size: 11px;
+    color: var(--muted);
+    line-height: 1.9;
+  }
+
+  .meta span { color: var(--accent); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="logo">SecureBank testbed</div>
+
+  {% if pending_login %}
+  <h1>Verify sign in</h1>
+  <p class="sub">
+    {% if pending_login.is_new_device %}
+    New device detected. Enter the one-time code to trust this device and complete sign in.
+    {% else %}
+    Enter the one-time code to complete sign in.
+    {% endif %}
+  </p>
+
+  <div class="notice">
+    Device: <strong>{{ pending_login.device_id }}</strong><br>
+    Location: <strong>{{ pending_login.location }}</strong><br>
+    Verification code destination: <strong>{{ delivery_target }}</strong>
+  </div>
+
+  {% if mfa_delivery_error %}
+  <div class="error">{{ mfa_delivery_error }}</div>
+  {% endif %}
+
+  {% if mfa_fallback_code %}
+  <div class="hint">
+    Temporary local fallback code:<br>
+    <strong>{{ mfa_fallback_code }}</strong>
+  </div>
+  {% endif %}
+
+  {% if error %}
+  <div class="error">{{ error }}</div>
+  {% endif %}
+
+  <form method="POST" action="/login">
+    <input type="hidden" name="phase" value="mfa">
+    <div class="field">
+      <label>Verification code</label>
+      <input type="text" name="otp_code" autocomplete="off" autofocus>
+    </div>
+    <button type="submit">Verify and sign in</button>
+  </form>
+
+  <a class="link-button" href="/login?reset=1">Start over</a>
+  {% else %}
+  <h1>Sign in</h1>
+    {% if error %}
+  <div class="error">{{ error }}</div>
+  {% endif %}
+
+  <form method="POST" action="/login">
+    <div class="field">
+      <label>Username</label>
+      <input type="text" name="username" value="{{ username }}" autocomplete="off" autofocus>
+    </div>
+    <div class="field">
+      <label>Password</label>
+      <input type="password" name="password">
+    </div>
+    <div class="row">
+      <div class="field">
+        <label>Device ID</label>
+        <input type="text" name="device_id" value="{{ device_id }}">
+      </div>
+      <div class="field">
+        <label>Location</label>
+        <input type="text" name="location" value="{{ location }}">
+      </div>
+    </div>
+    <button type="submit">Sign in</button>
+  </form>
+  {% endif %}
+
+  <div class="meta">
+    demo accounts<br>
+    <span>alice.kim42</span> / alice_pass_123<br>
+    <span>bob.lee87</span> / bob_pass_456
+  </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="refresh" content="3">
+<title>SecureBank — Audit log</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@300;400;500&display=swap');
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --bg:      #0a0c0f;
+    --surface: #111418;
+    --surface2:#161b22;
+    --border:  #1e2329;
+    --text:    #e2e8f0;
+    --muted:   #64748b;
+    --accent:  #22c55e;
+    --warn:    #f59e0b;
+    --danger:  #ef4444;
+    --mono:    'IBM Plex Mono', monospace;
+    --sans:    'IBM Plex Sans', sans-serif;
+  }
+
+  body { background: var(--bg); color: var(--text); font-family: var(--sans); min-height: 100vh; }
+
+  nav {
+    background: var(--surface);
+    border-bottom: 1px solid var(--border);
+    padding: 0 32px;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .logo {
+    font-family: var(--mono);
+    font-size: 12px;
+    color: var(--accent);
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    display: flex; align-items: center; gap: 8px;
+  }
+  .logo::before { content:''; width:7px; height:7px; background:var(--accent); border-radius:50%; display:inline-block; }
+
+  a.nav-link { font-family: var(--mono); font-size: 11px; color: var(--muted); text-decoration: none; }
+  a.nav-link:hover { color: var(--text); }
+
+  .refresh-badge {
+    font-family: var(--mono);
+    font-size: 10px;
+    color: var(--muted);
+    background: rgba(100,116,139,0.1);
+    border: 1px solid rgba(100,116,139,0.2);
+    padding: 2px 8px;
+    border-radius: 3px;
+  }
+
+  .container { max-width: 1200px; margin: 0 auto; padding: 32px 24px; }
+
+  .page-title {
+    font-family: var(--mono);
+    font-size: 13px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 16px;
+  }
+
+  /* ── Stats bar ── */
+  .stats {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+  }
+  .stat {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 10px 16px;
+    font-family: var(--mono);
+    font-size: 11px;
+  }
+  .stat-val { font-size: 20px; font-weight: 500; display: block; margin-bottom: 2px; }
+  .stat-success .stat-val { color: var(--accent); }
+  .stat-fail    .stat-val { color: var(--danger); }
+  .stat-warn    .stat-val { color: var(--warn); }
+  .stat-info    .stat-val { color: #60a5fa; }
+
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    overflow: hidden;
+  }
+
+  table { width: 100%; border-collapse: collapse; font-size: 12px; }
+
+  th {
+    font-family: var(--mono);
+    font-size: 10px;
+    letter-spacing: 0.1em;
+    color: var(--muted);
+    text-transform: uppercase;
+    text-align: left;
+    padding: 10px 14px;
+    border-bottom: 1px solid var(--border);
+    background: var(--surface2);
+  }
+
+  td {
+    font-family: var(--mono);
+    font-size: 12px;
+    padding: 9px 14px;
+    border-bottom: 1px solid var(--border);
+    vertical-align: middle;
+  }
+
+  tr:last-child td { border-bottom: none; }
+  tr:hover td { background: var(--surface2); }
+
+  /* ── Attack row highlight ── */
+  tr.attack-row td { background: rgba(239,68,68,0.06); }
+  tr.attack-row:hover td { background: rgba(239,68,68,0.12); }
+  tr.blocked-row td { background: rgba(245,158,11,0.06); }
+  tr.blocked-row:hover td { background: rgba(245,158,11,0.12); }
+
+  .tag {
+    font-size: 11px;
+    padding: 2px 8px;
+    border-radius: 3px;
+    font-family: var(--mono);
+    white-space: nowrap;
+  }
+
+  .tag-success { background: rgba(34,197,94,0.1);  color: var(--accent); }
+  .tag-fail    { background: rgba(239,68,68,0.1);  color: var(--danger); }
+
+  .event-login    { color: #60a5fa; }
+  .event-transfer { color: var(--accent); }
+  .event-bene     { color: var(--warn); }
+  .event-denied   { color: var(--danger); }
+  .event-blocked  { color: var(--warn); }
+  .event-view     { color: var(--muted); }
+  .event-attack   { color: var(--danger); font-weight: 500; }
+
+  .new-device {
+    font-size: 10px;
+    color: var(--warn);
+    background: rgba(245,158,11,0.1);
+    border: 1px solid rgba(245,158,11,0.3);
+    padding: 1px 6px;
+    border-radius: 3px;
+    margin-left: 6px;
+  }
+
+  .attacker-badge {
+    font-size: 10px;
+    color: var(--danger);
+    background: rgba(239,68,68,0.1);
+    border: 1px solid rgba(239,68,68,0.3);
+    padding: 1px 6px;
+    border-radius: 3px;
+    margin-left: 6px;
+  }
+
+  .empty { color: var(--muted); font-family: var(--mono); font-size: 13px; padding: 32px 20px; }
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="logo">SecureBank testbed</div>
+  <div style="display:flex;align-items:center;gap:16px;">
+    <span class="refresh-badge">auto-refresh 3s</span>
+    <a href="/dashboard" class="nav-link">← dashboard</a>
+  </div>
+</nav>
+
+<div class="container">
+  <div class="page-title">Audit log — all events</div>
+
+  {% if rows %}
+  <!-- ── Stats bar ── -->
+  {% set success_count = rows | selectattr('success', 'equalto', 'True') | list | length %}
+  {% set fail_count    = rows | selectattr('success', 'equalto', 'False') | list | length %}
+  {% set attack_count  = rows | selectattr('device_id', 'equalto', 'ATTACKER-DEVICE-999') | list | length %}
+  {% set blocked_count = rows | selectattr('event_type', 'in', ['RATE_LIMITED','TRANSFER_BLOCKED','LOGIN_BLOCKED']) | list | length %}
+
+  <div class="stats">
+    <div class="stat stat-info">
+      <span class="stat-val">{{ rows | length }}</span>
+      total events
+    </div>
+    <div class="stat stat-success">
+      <span class="stat-val">{{ success_count }}</span>
+      success
+    </div>
+    <div class="stat stat-fail">
+      <span class="stat-val">{{ fail_count }}</span>
+      failed
+    </div>
+    <div class="stat stat-fail">
+      <span class="stat-val">{{ attack_count }}</span>
+      attack events
+    </div>
+    <div class="stat stat-warn">
+      <span class="stat-val">{{ blocked_count }}</span>
+      blocked
+    </div>
+  </div>
+  {% endif %}
+
+  <div class="card">
+    {% if rows %}
+    <table>
+      <thead>
+        <tr>
+          <th>Timestamp</th>
+          <th>Event</th>
+          <th>User</th>
+          <th>Account</th>
+          <th>Device</th>
+          <th>Location</th>
+          <th>Status</th>
+          <th>Details</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for r in rows %}
+        <tr class="
+          {% if r.device_id == 'ATTACKER-DEVICE-999' %}attack-row
+          {% elif r.event_type in ['RATE_LIMITED','TRANSFER_BLOCKED','LOGIN_BLOCKED'] %}blocked-row
+          {% endif %}
+        ">
+          <td>{{ r.timestamp[:19] }}</td>
+          <td>
+            {% if r.device_id == 'ATTACKER-DEVICE-999' %}
+              <span class="event-attack">{{ r.event_type }}</span>
+            {% elif r.event_type in ['RATE_LIMITED','TRANSFER_BLOCKED','LOGIN_BLOCKED'] %}
+              <span class="event-blocked">{{ r.event_type }}</span>
+            {% elif 'LOGIN' in r.event_type %}
+              <span class="event-login">{{ r.event_type }}</span>
+            {% elif 'TRANSFER' in r.event_type %}
+              <span class="event-transfer">{{ r.event_type }}</span>
+            {% elif 'BENEFICIARY' in r.event_type %}
+              <span class="event-bene">{{ r.event_type }}</span>
+            {% elif 'DENIED' in r.event_type or 'FAILED' in r.event_type %}
+              <span class="event-denied">{{ r.event_type }}</span>
+            {% else %}
+              <span class="event-view">{{ r.event_type }}</span>
+            {% endif %}
+          </td>
+          <td>{{ r.user_id }}</td>
+          <td>{{ r.account_id or '—' }}</td>
+          <td>
+            {{ r.device_id }}
+            {% if r.device_id == 'ATTACKER-DEVICE-999' %}
+              <span class="attacker-badge">attacker</span>
+            {% elif 'new_device=True' in r.details %}
+              <span class="new-device">new</span>
+            {% endif %}
+          </td>
+          <td>{{ r.location }}</td>
+          <td>
+            {% if r.success == 'True' %}
+              <span class="tag tag-success">ok</span>
+            {% else %}
+              <span class="tag tag-fail">fail</span>
+            {% endif %}
+          </td>
+          <td>{{ r.details }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+    {% else %}
+    <p class="empty">No events logged yet.</p>
+    {% endif %}
+  </div>
+</div>
+
+</body>
+</html>

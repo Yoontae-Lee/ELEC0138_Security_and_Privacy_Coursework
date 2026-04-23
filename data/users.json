@@ -1,0 +1,2738 @@
+[
+  {
+    "username": "alice.kim42",
+    "password": "alice_pass_123",
+    "account_id": "ACC-66F349D6",
+    "balance": 4800.0,
+    "personal_data": {
+      "name": "Alice Kim",
+      "email": "alice.kim42@example.com",
+      "phone": "+44-20-7946-0101",
+      "location": "London, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "bob.lee87",
+    "password": "bob_pass_456",
+    "account_id": "ACC-3B545708",
+    "balance": 1000.0,
+    "personal_data": {
+      "name": "Bob Lee",
+      "email": "bob.lee87@example.com",
+      "phone": "+44-161-496-0102",
+      "location": "Manchester, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "david.clark40",
+    "password": "ttlBcdldWqZz",
+    "account_id": "ACC-D6E3B41D",
+    "balance": 3699.28,
+    "personal_data": {
+      "name": "David Clark",
+      "email": "david.clark40@example.com",
+      "phone": "+44-138-4169-2664",
+      "location": "Edinburgh, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "jacob.thomas19",
+    "password": "ZT2e8819RRnb",
+    "account_id": "ACC-8E41B297",
+    "balance": 7385.02,
+    "personal_data": {
+      "name": "Jacob Thomas",
+      "email": "jacob.thomas19@example.com",
+      "phone": "+44-167-4062-5174",
+      "location": "Belfast, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "george.robinson65",
+    "password": "2OPQTkw7dPRI",
+    "account_id": "ACC-ED64BBDA",
+    "balance": 9941.27,
+    "personal_data": {
+      "name": "George Robinson",
+      "email": "george.robinson65@example.com",
+      "phone": "+44-35-1172-2259",
+      "location": "Liverpool, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "harry.evans19",
+    "password": "QsxN7zZYnMY1",
+    "account_id": "ACC-58C9153D",
+    "balance": 4106.32,
+    "personal_data": {
+      "name": "Harry Evans",
+      "email": "harry.evans19@example.com",
+      "phone": "+44-163-2168-5454",
+      "location": "Oxford, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "mia.clark89",
+    "password": "FS5pVDUulYtA",
+    "account_id": "ACC-75225487",
+    "balance": 11296.4,
+    "personal_data": {
+      "name": "Mia Clark",
+      "email": "mia.clark89@example.com",
+      "phone": "+44-77-8608-8754",
+      "location": "Newcastle, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "noah.smith75",
+    "password": "42MoPGyaLQHP",
+    "account_id": "ACC-06D12AE1",
+    "balance": 9073.82,
+    "personal_data": {
+      "name": "Noah Smith",
+      "email": "noah.smith75@example.com",
+      "phone": "+44-102-2216-5580",
+      "location": "Edinburgh, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "emma.brown18",
+    "password": "p6YQCRo3aakH",
+    "account_id": "ACC-4828A96C",
+    "balance": 11080.56,
+    "personal_data": {
+      "name": "Emma Brown",
+      "email": "emma.brown18@example.com",
+      "phone": "+44-54-4670-6017",
+      "location": "Nottingham, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "sophia.harris20",
+    "password": "3Kk8qBNer33D",
+    "account_id": "ACC-2F6B53C2",
+    "balance": 4158.61,
+    "personal_data": {
+      "name": "Sophia Harris",
+      "email": "sophia.harris20@example.com",
+      "phone": "+44-180-4923-2508",
+      "location": "Newcastle, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "james.wilson11",
+    "password": "4vjGK3r3nrz7",
+    "account_id": "ACC-2B13676C",
+    "balance": 14783.96,
+    "personal_data": {
+      "name": "James Wilson",
+      "email": "james.wilson11@example.com",
+      "phone": "+44-53-6204-1525",
+      "location": "Newcastle, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "sarah.evans76",
+    "password": "EZDZQqrPsGNA",
+    "account_id": "ACC-4D1DB509",
+    "balance": 10881.54,
+    "personal_data": {
+      "name": "Sarah Evans",
+      "email": "sarah.evans76@example.com",
+      "phone": "+44-130-6130-3411",
+      "location": "Cambridge, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "william.johnson23",
+    "password": "ZnVP1qvbTIQw",
+    "account_id": "ACC-36C36DBD",
+    "balance": 7864.97,
+    "personal_data": {
+      "name": "William Johnson",
+      "email": "william.johnson23@example.com",
+      "phone": "+44-111-2812-9716",
+      "location": "Aberdeen, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "emma.white10",
+    "password": "Fusz2jViuU9z",
+    "account_id": "ACC-E789E52B",
+    "balance": 1635.13,
+    "personal_data": {
+      "name": "Emma White",
+      "email": "emma.white10@example.com",
+      "phone": "+44-179-2002-6534",
+      "location": "Aberdeen, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "sarah.walker78",
+    "password": "hg1dkEmwYuhc",
+    "account_id": "ACC-CCB70651",
+    "balance": 14660.88,
+    "personal_data": {
+      "name": "Sarah Walker",
+      "email": "sarah.walker78@example.com",
+      "phone": "+44-185-8060-4346",
+      "location": "Edinburgh, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "james.wright71",
+    "password": "DIc2XPgbdPgi",
+    "account_id": "ACC-82792A9A",
+    "balance": 10596.97,
+    "personal_data": {
+      "name": "James Wright",
+      "email": "james.wright71@example.com",
+      "phone": "+44-97-3436-3998",
+      "location": "Birmingham, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "oliver.evans64",
+    "password": "2lh8jo9pRrR8",
+    "account_id": "ACC-340FECC1",
+    "balance": 14068.55,
+    "personal_data": {
+      "name": "Oliver Evans",
+      "email": "oliver.evans64@example.com",
+      "phone": "+44-94-9210-9303",
+      "location": "Cardiff, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "michael.smith34",
+    "password": "nlZV9YxGbWK7",
+    "account_id": "ACC-524A87AD",
+    "balance": 3607.07,
+    "personal_data": {
+      "name": "Michael Smith",
+      "email": "michael.smith34@example.com",
+      "phone": "+44-33-3599-5571",
+      "location": "Nottingham, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "oliver.martin91",
+    "password": "gCQSEe7jhNYT",
+    "account_id": "ACC-EA7D9DD1",
+    "balance": 12401.59,
+    "personal_data": {
+      "name": "Oliver Martin",
+      "email": "oliver.martin91@example.com",
+      "phone": "+44-102-3866-3989",
+      "location": "Newcastle, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "emma.jackson64",
+    "password": "OmHwIdX2q3mw",
+    "account_id": "ACC-C3C69344",
+    "balance": 1017.93,
+    "personal_data": {
+      "name": "Emma Jackson",
+      "email": "emma.jackson64@example.com",
+      "phone": "+44-57-8291-9908",
+      "location": "Newcastle, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "james.jones13",
+    "password": "BHRUPMWvsNSg",
+    "account_id": "ACC-A11AA82E",
+    "balance": 7964.65,
+    "personal_data": {
+      "name": "James Jones",
+      "email": "james.jones13@example.com",
+      "phone": "+44-174-3401-3142",
+      "location": "Cambridge, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "sarah.johnson78",
+    "password": "8U9NsmWUrrFI",
+    "account_id": "ACC-C4244C2B",
+    "balance": 5647.61,
+    "personal_data": {
+      "name": "Sarah Johnson",
+      "email": "sarah.johnson78@example.com",
+      "phone": "+44-139-9518-9433",
+      "location": "Newcastle, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "mia.jackson90",
+    "password": "It8yNlckmCbD",
+    "account_id": "ACC-462F3AA2",
+    "balance": 1735.49,
+    "personal_data": {
+      "name": "Mia Jackson",
+      "email": "mia.jackson90@example.com",
+      "phone": "+44-126-9253-1928",
+      "location": "Nottingham, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "sarah.clark72",
+    "password": "TNPZFUedXAhj",
+    "account_id": "ACC-BCB8B6E4",
+    "balance": 9047.64,
+    "personal_data": {
+      "name": "Sarah Clark",
+      "email": "sarah.clark72@example.com",
+      "phone": "+44-84-1837-2879",
+      "location": "Leeds, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "william.taylor12",
+    "password": "1alIYPWtgNtX",
+    "account_id": "ACC-E8EE803D",
+    "balance": 1157.64,
+    "personal_data": {
+      "name": "William Taylor",
+      "email": "william.taylor12@example.com",
+      "phone": "+44-163-5537-2036",
+      "location": "Sheffield, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "mia.lee82",
+    "password": "AW1ZIgNJDFBQ",
+    "account_id": "ACC-DC909170",
+    "balance": 4371.99,
+    "personal_data": {
+      "name": "Mia Lee",
+      "email": "mia.lee82@example.com",
+      "phone": "+44-44-3815-9255",
+      "location": "Southampton, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "olivia.harris58",
+    "password": "qklV0Gyc4jS8",
+    "account_id": "ACC-2F4D0F43",
+    "balance": 4466.8,
+    "personal_data": {
+      "name": "Olivia Harris",
+      "email": "olivia.harris58@example.com",
+      "phone": "+44-188-1466-9676",
+      "location": "Brighton, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "jessica.clark12",
+    "password": "delrQnpZhKnY",
+    "account_id": "ACC-4AA22F15",
+    "balance": 5880.99,
+    "personal_data": {
+      "name": "Jessica Clark",
+      "email": "jessica.clark12@example.com",
+      "phone": "+44-83-1205-8881",
+      "location": "Edinburgh, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "michael.thompson11",
+    "password": "eaAtaenn5wPn",
+    "account_id": "ACC-1AFD941C",
+    "balance": 1186.41,
+    "personal_data": {
+      "name": "Michael Thompson",
+      "email": "michael.thompson11@example.com",
+      "phone": "+44-58-6409-5055",
+      "location": "Brighton, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "sarah.roberts87",
+    "password": "BdYoBG3qgyr9",
+    "account_id": "ACC-55C339E8",
+    "balance": 3253.35,
+    "personal_data": {
+      "name": "Sarah Roberts",
+      "email": "sarah.roberts87@example.com",
+      "phone": "+44-98-9287-9728",
+      "location": "Newcastle, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "jessica.clark30",
+    "password": "LttmlF6Sruqx",
+    "account_id": "ACC-4A456012",
+    "balance": 367.92,
+    "personal_data": {
+      "name": "Jessica Clark",
+      "email": "jessica.clark30@example.com",
+      "phone": "+44-85-3273-8449",
+      "location": "Manchester, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "noah.brown77",
+    "password": "8D715aBUFbty",
+    "account_id": "ACC-09C3A291",
+    "balance": 5122.37,
+    "personal_data": {
+      "name": "Noah Brown",
+      "email": "noah.brown77@example.com",
+      "phone": "+44-135-8399-8671",
+      "location": "Nottingham, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "oliver.thompson69",
+    "password": "yda5B5ugmNL3",
+    "account_id": "ACC-969E95D1",
+    "balance": 8236.92,
+    "personal_data": {
+      "name": "Oliver Thompson",
+      "email": "oliver.thompson69@example.com",
+      "phone": "+44-79-5964-8797",
+      "location": "Leeds, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "jack.jones21",
+    "password": "FmQ8VFxXsrX1",
+    "account_id": "ACC-3DEDF1B0",
+    "balance": 9317.01,
+    "personal_data": {
+      "name": "Jack Jones",
+      "email": "jack.jones21@example.com",
+      "phone": "+44-31-1940-9167",
+      "location": "Edinburgh, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "george.martin33",
+    "password": "xNx8tVscdg1n",
+    "account_id": "ACC-EA136738",
+    "balance": 7828.18,
+    "personal_data": {
+      "name": "George Martin",
+      "email": "george.martin33@example.com",
+      "phone": "+44-68-8422-5629",
+      "location": "Edinburgh, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "mia.taylor15",
+    "password": "LkAGUyD3eaRC",
+    "account_id": "ACC-F8A968A8",
+    "balance": 3163.15,
+    "personal_data": {
+      "name": "Mia Taylor",
+      "email": "mia.taylor15@example.com",
+      "phone": "+44-109-8127-9604",
+      "location": "Newcastle, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "mia.wright44",
+    "password": "2o2kW04O5wd6",
+    "account_id": "ACC-EE92A0E4",
+    "balance": 13171.22,
+    "personal_data": {
+      "name": "Mia Wright",
+      "email": "mia.wright44@example.com",
+      "phone": "+44-182-4033-2004",
+      "location": "Leeds, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "charlie.thompson85",
+    "password": "hGhZw9pzqsaO",
+    "account_id": "ACC-BA63BB64",
+    "balance": 12593.76,
+    "personal_data": {
+      "name": "Charlie Thompson",
+      "email": "charlie.thompson85@example.com",
+      "phone": "+44-68-9756-5479",
+      "location": "Brighton, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "olivia.taylor27",
+    "password": "Z7uPcOVG38BP",
+    "account_id": "ACC-5095B5C1",
+    "balance": 9062.53,
+    "personal_data": {
+      "name": "Olivia Taylor",
+      "email": "olivia.taylor27@example.com",
+      "phone": "+44-85-8693-6252",
+      "location": "Liverpool, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "david.davies71",
+    "password": "VvGC3ZWSl84Z",
+    "account_id": "ACC-E299A4F7",
+    "balance": 3164.9,
+    "personal_data": {
+      "name": "David Davies",
+      "email": "david.davies71@example.com",
+      "phone": "+44-85-6054-2192",
+      "location": "Edinburgh, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "oliver.smith30",
+    "password": "n57JX4OQIrpD",
+    "account_id": "ACC-ADE65EBB",
+    "balance": 13741.6,
+    "personal_data": {
+      "name": "Oliver Smith",
+      "email": "oliver.smith30@example.com",
+      "phone": "+44-83-3171-9129",
+      "location": "Brighton, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "jacob.lee18",
+    "password": "l0y4B2YhYJcS",
+    "account_id": "ACC-3DB51BEC",
+    "balance": 14264.51,
+    "personal_data": {
+      "name": "Jacob Lee",
+      "email": "jacob.lee18@example.com",
+      "phone": "+44-91-2409-4654",
+      "location": "Aberdeen, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "jessica.davies48",
+    "password": "oMfrCmK5IvCi",
+    "account_id": "ACC-AC9CE6C3",
+    "balance": 6133.04,
+    "personal_data": {
+      "name": "Jessica Davies",
+      "email": "jessica.davies48@example.com",
+      "phone": "+44-151-9960-9971",
+      "location": "Aberdeen, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "charlie.thompson13",
+    "password": "Q2Qo7IrNvVVe",
+    "account_id": "ACC-C760692C",
+    "balance": 12211.45,
+    "personal_data": {
+      "name": "Charlie Thompson",
+      "email": "charlie.thompson13@example.com",
+      "phone": "+44-56-7189-8625",
+      "location": "Southampton, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "noah.jones21",
+    "password": "KBknrbwO2m75",
+    "account_id": "ACC-476E2E84",
+    "balance": 6106.12,
+    "personal_data": {
+      "name": "Noah Jones",
+      "email": "noah.jones21@example.com",
+      "phone": "+44-39-2503-2843",
+      "location": "Oxford, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "jacob.evans72",
+    "password": "LvZ63RPvjtQP",
+    "account_id": "ACC-605EEA74",
+    "balance": 625.73,
+    "personal_data": {
+      "name": "Jacob Evans",
+      "email": "jacob.evans72@example.com",
+      "phone": "+44-104-4162-9763",
+      "location": "Bristol, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "olivia.walker65",
+    "password": "vHT3NOrJZM3s",
+    "account_id": "ACC-AA6CC041",
+    "balance": 2492.41,
+    "personal_data": {
+      "name": "Olivia Walker",
+      "email": "olivia.walker65@example.com",
+      "phone": "+44-54-8565-3207",
+      "location": "Cardiff, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "george.johnson23",
+    "password": "SUIT7pNJOn9M",
+    "account_id": "ACC-2B9E4F80",
+    "balance": 9646.53,
+    "personal_data": {
+      "name": "George Johnson",
+      "email": "george.johnson23@example.com",
+      "phone": "+44-32-7013-6260",
+      "location": "Brighton, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "emma.walker15",
+    "password": "DzWLUX7vhvKV",
+    "account_id": "ACC-B3835D73",
+    "balance": 12329.04,
+    "personal_data": {
+      "name": "Emma Walker",
+      "email": "emma.walker15@example.com",
+      "phone": "+44-127-6128-2962",
+      "location": "Leicester, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "sarah.martin20",
+    "password": "9djFFh0SHqva",
+    "account_id": "ACC-A87E2D9F",
+    "balance": 13416.3,
+    "personal_data": {
+      "name": "Sarah Martin",
+      "email": "sarah.martin20@example.com",
+      "phone": "+44-151-9088-9373",
+      "location": "Manchester, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "olivia.harris34",
+    "password": "7Qvv05NNWuVr",
+    "account_id": "ACC-C3AF59BC",
+    "balance": 7344.51,
+    "personal_data": {
+      "name": "Olivia Harris",
+      "email": "olivia.harris34@example.com",
+      "phone": "+44-136-6947-9935",
+      "location": "Brighton, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "michael.smith84",
+    "password": "dfQxPfbjAkAT",
+    "account_id": "ACC-A3F64F9B",
+    "balance": 1893.98,
+    "personal_data": {
+      "name": "Michael Smith",
+      "email": "michael.smith84@example.com",
+      "phone": "+44-169-4839-4834",
+      "location": "Birmingham, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "charlie.walker19",
+    "password": "8nGhP55Fwh45",
+    "account_id": "ACC-4DC68B86",
+    "balance": 7009.7,
+    "personal_data": {
+      "name": "Charlie Walker",
+      "email": "charlie.walker19@example.com",
+      "phone": "+44-191-1795-3165",
+      "location": "Leicester, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "oliver.thomas97",
+    "password": "KkpBoMemh548",
+    "account_id": "ACC-F8EEA5F7",
+    "balance": 11710.51,
+    "personal_data": {
+      "name": "Oliver Thomas",
+      "email": "oliver.thomas97@example.com",
+      "phone": "+44-122-8331-9565",
+      "location": "Birmingham, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "william.robinson52",
+    "password": "vP3P1x1Uh7Qt",
+    "account_id": "ACC-827E0674",
+    "balance": 13548.56,
+    "personal_data": {
+      "name": "William Robinson",
+      "email": "william.robinson52@example.com",
+      "phone": "+44-83-9377-5137",
+      "location": "Oxford, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "michael.smith52",
+    "password": "5I7xPaTR4nMK",
+    "account_id": "ACC-B67FE017",
+    "balance": 11161.57,
+    "personal_data": {
+      "name": "Michael Smith",
+      "email": "michael.smith52@example.com",
+      "phone": "+44-25-6887-2385",
+      "location": "Cardiff, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "olivia.lee61",
+    "password": "2q0UjXCD6j88",
+    "account_id": "ACC-DF71F4D1",
+    "balance": 3802.16,
+    "personal_data": {
+      "name": "Olivia Lee",
+      "email": "olivia.lee61@example.com",
+      "phone": "+44-74-1969-4080",
+      "location": "Nottingham, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "emma.smith86",
+    "password": "0AQSWxJMv1OZ",
+    "account_id": "ACC-47C2E32E",
+    "balance": 1329.0,
+    "personal_data": {
+      "name": "Emma Smith",
+      "email": "emma.smith86@example.com",
+      "phone": "+44-94-6434-1768",
+      "location": "Sheffield, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "thomas.thompson86",
+    "password": "R3fJYSZA30ec",
+    "account_id": "ACC-C7680E84",
+    "balance": 11994.5,
+    "personal_data": {
+      "name": "Thomas Thompson",
+      "email": "thomas.thompson86@example.com",
+      "phone": "+44-27-1270-4281",
+      "location": "Brighton, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "jack.clark74",
+    "password": "qUbGJvmVkMWR",
+    "account_id": "ACC-7A90A3F0",
+    "balance": 13344.0,
+    "personal_data": {
+      "name": "Jack Clark",
+      "email": "jack.clark74@example.com",
+      "phone": "+44-171-8552-7997",
+      "location": "Birmingham, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "isabella.johnson73",
+    "password": "TgmLQJOUjx8f",
+    "account_id": "ACC-3B5B8082",
+    "balance": 9618.18,
+    "personal_data": {
+      "name": "Isabella Johnson",
+      "email": "isabella.johnson73@example.com",
+      "phone": "+44-109-4029-9245",
+      "location": "Edinburgh, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "harry.roberts69",
+    "password": "i2RVsSKR7E3E",
+    "account_id": "ACC-75C3B166",
+    "balance": 11916.42,
+    "personal_data": {
+      "name": "Harry Roberts",
+      "email": "harry.roberts69@example.com",
+      "phone": "+44-126-9025-2790",
+      "location": "Cambridge, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "isabella.jackson65",
+    "password": "zC3qBblY9vjh",
+    "account_id": "ACC-3C98492C",
+    "balance": 5519.48,
+    "personal_data": {
+      "name": "Isabella Jackson",
+      "email": "isabella.jackson65@example.com",
+      "phone": "+44-67-3706-8333",
+      "location": "Coventry, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "jessica.evans19",
+    "password": "txglMrz1Uou5",
+    "account_id": "ACC-8F2D11EB",
+    "balance": 11072.92,
+    "personal_data": {
+      "name": "Jessica Evans",
+      "email": "jessica.evans19@example.com",
+      "phone": "+44-67-6875-7770",
+      "location": "Glasgow, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "mia.davies62",
+    "password": "V2ExfpZO85Jw",
+    "account_id": "ACC-6F101DA9",
+    "balance": 8957.6,
+    "personal_data": {
+      "name": "Mia Davies",
+      "email": "mia.davies62@example.com",
+      "phone": "+44-150-9794-5179",
+      "location": "Birmingham, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "sarah.smith72",
+    "password": "3hCiix27MScJ",
+    "account_id": "ACC-D1966640",
+    "balance": 7907.54,
+    "personal_data": {
+      "name": "Sarah Smith",
+      "email": "sarah.smith72@example.com",
+      "phone": "+44-69-4580-4413",
+      "location": "Leicester, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "isabella.lee17",
+    "password": "iFXqR1vwyEW6",
+    "account_id": "ACC-A13E6D64",
+    "balance": 13867.85,
+    "personal_data": {
+      "name": "Isabella Lee",
+      "email": "isabella.lee17@example.com",
+      "phone": "+44-95-1953-3193",
+      "location": "Bristol, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "jacob.walker48",
+    "password": "YczKh9AdrASB",
+    "account_id": "ACC-2F476205",
+    "balance": 13772.87,
+    "personal_data": {
+      "name": "Jacob Walker",
+      "email": "jacob.walker48@example.com",
+      "phone": "+44-22-2495-7426",
+      "location": "Glasgow, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "emma.jones63",
+    "password": "3RPl9RTourpw",
+    "account_id": "ACC-901F8A4D",
+    "balance": 1189.88,
+    "personal_data": {
+      "name": "Emma Jones",
+      "email": "emma.jones63@example.com",
+      "phone": "+44-73-3376-3365",
+      "location": "Newcastle, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "jacob.roberts45",
+    "password": "ExmmZTTgdSEU",
+    "account_id": "ACC-ED8A8899",
+    "balance": 7413.41,
+    "personal_data": {
+      "name": "Jacob Roberts",
+      "email": "jacob.roberts45@example.com",
+      "phone": "+44-66-1034-2583",
+      "location": "London, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "noah.walker50",
+    "password": "dWzQ4jZPXCxm",
+    "account_id": "ACC-015F482E",
+    "balance": 5366.78,
+    "personal_data": {
+      "name": "Noah Walker",
+      "email": "noah.walker50@example.com",
+      "phone": "+44-70-1918-2348",
+      "location": "Aberdeen, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "harry.white16",
+    "password": "4CN7tTcKlHou",
+    "account_id": "ACC-DEB6921C",
+    "balance": 6660.02,
+    "personal_data": {
+      "name": "Harry White",
+      "email": "harry.white16@example.com",
+      "phone": "+44-20-4856-5592",
+      "location": "Aberdeen, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "michael.jackson52",
+    "password": "5c46ymqNkyrD",
+    "account_id": "ACC-6E772B49",
+    "balance": 2270.7,
+    "personal_data": {
+      "name": "Michael Jackson",
+      "email": "michael.jackson52@example.com",
+      "phone": "+44-93-1663-8201",
+      "location": "Glasgow, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "jacob.wright32",
+    "password": "rjl1KMoQ5ypJ",
+    "account_id": "ACC-70CE40D3",
+    "balance": 4790.57,
+    "personal_data": {
+      "name": "Jacob Wright",
+      "email": "jacob.wright32@example.com",
+      "phone": "+44-148-8424-2992",
+      "location": "Bristol, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "james.wilson19",
+    "password": "DoJNGdZe0Dak",
+    "account_id": "ACC-C75B29AB",
+    "balance": 3680.75,
+    "personal_data": {
+      "name": "James Wilson",
+      "email": "james.wilson19@example.com",
+      "phone": "+44-34-9250-6046",
+      "location": "Liverpool, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "david.harris38",
+    "password": "UupWiWlar5lG",
+    "account_id": "ACC-A8ABAC82",
+    "balance": 2451.87,
+    "personal_data": {
+      "name": "David Harris",
+      "email": "david.harris38@example.com",
+      "phone": "+44-69-6654-1887",
+      "location": "Coventry, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "olivia.johnson12",
+    "password": "NGXhS37AsJxW",
+    "account_id": "ACC-FF782D9E",
+    "balance": 9231.43,
+    "personal_data": {
+      "name": "Olivia Johnson",
+      "email": "olivia.johnson12@example.com",
+      "phone": "+44-25-7799-7169",
+      "location": "Leicester, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "thomas.white18",
+    "password": "YUVaOwC6fNw2",
+    "account_id": "ACC-C10C0456",
+    "balance": 4761.77,
+    "personal_data": {
+      "name": "Thomas White",
+      "email": "thomas.white18@example.com",
+      "phone": "+44-81-4884-8814",
+      "location": "Oxford, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "sarah.wilson75",
+    "password": "Z8EpnLtoD7h1",
+    "account_id": "ACC-EFEFC24B",
+    "balance": 14281.26,
+    "personal_data": {
+      "name": "Sarah Wilson",
+      "email": "sarah.wilson75@example.com",
+      "phone": "+44-183-1072-1108",
+      "location": "Manchester, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "charlie.harris63",
+    "password": "7JnYzYFZwBxL",
+    "account_id": "ACC-443ACF28",
+    "balance": 637.66,
+    "personal_data": {
+      "name": "Charlie Harris",
+      "email": "charlie.harris63@example.com",
+      "phone": "+44-186-8588-8138",
+      "location": "Bristol, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "thomas.evans82",
+    "password": "DcwupJT4joZR",
+    "account_id": "ACC-59BE0F69",
+    "balance": 7662.0,
+    "personal_data": {
+      "name": "Thomas Evans",
+      "email": "thomas.evans82@example.com",
+      "phone": "+44-153-1526-9059",
+      "location": "Southampton, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "jack.davies97",
+    "password": "oCPaGc8CYor8",
+    "account_id": "ACC-E1EEE116",
+    "balance": 9198.9,
+    "personal_data": {
+      "name": "Jack Davies",
+      "email": "jack.davies97@example.com",
+      "phone": "+44-76-7931-6696",
+      "location": "Leeds, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "emma.evans29",
+    "password": "UB2wsAFrylUw",
+    "account_id": "ACC-CCDEA5A9",
+    "balance": 8720.77,
+    "personal_data": {
+      "name": "Emma Evans",
+      "email": "emma.evans29@example.com",
+      "phone": "+44-81-8057-4684",
+      "location": "Coventry, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "harry.brown24",
+    "password": "fvgRbgqrZo3o",
+    "account_id": "ACC-A9EB9717",
+    "balance": 14802.34,
+    "personal_data": {
+      "name": "Harry Brown",
+      "email": "harry.brown24@example.com",
+      "phone": "+44-27-5587-5452",
+      "location": "Belfast, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "jacob.harris24",
+    "password": "TOHEoPjfNEwp",
+    "account_id": "ACC-A900EB59",
+    "balance": 2048.72,
+    "personal_data": {
+      "name": "Jacob Harris",
+      "email": "jacob.harris24@example.com",
+      "phone": "+44-26-3652-2187",
+      "location": "Oxford, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "jessica.roberts75",
+    "password": "vhE4aK7EjzkI",
+    "account_id": "ACC-AA01F096",
+    "balance": 5698.56,
+    "personal_data": {
+      "name": "Jessica Roberts",
+      "email": "jessica.roberts75@example.com",
+      "phone": "+44-119-9298-7593",
+      "location": "London, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "sarah.martin48",
+    "password": "vvFrmN5zZEsz",
+    "account_id": "ACC-C7BE5CF2",
+    "balance": 8453.83,
+    "personal_data": {
+      "name": "Sarah Martin",
+      "email": "sarah.martin48@example.com",
+      "phone": "+44-147-2006-8844",
+      "location": "Sheffield, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "charlie.smith82",
+    "password": "8citxDFj9JbW",
+    "account_id": "ACC-14EBC916",
+    "balance": 7763.54,
+    "personal_data": {
+      "name": "Charlie Smith",
+      "email": "charlie.smith82@example.com",
+      "phone": "+44-57-2913-1972",
+      "location": "Southampton, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "emily.thomas53",
+    "password": "Mtv6Bqgn6lVp",
+    "account_id": "ACC-749581CC",
+    "balance": 12920.26,
+    "personal_data": {
+      "name": "Emily Thomas",
+      "email": "emily.thomas53@example.com",
+      "phone": "+44-166-2815-3165",
+      "location": "Oxford, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "harry.martin60",
+    "password": "zzHXMkiMDeED",
+    "account_id": "ACC-09371E79",
+    "balance": 4878.65,
+    "personal_data": {
+      "name": "Harry Martin",
+      "email": "harry.martin60@example.com",
+      "phone": "+44-133-8435-8153",
+      "location": "Cardiff, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "william.clark24",
+    "password": "evUCAsweBQ1M",
+    "account_id": "ACC-88C74863",
+    "balance": 12176.36,
+    "personal_data": {
+      "name": "William Clark",
+      "email": "william.clark24@example.com",
+      "phone": "+44-137-7097-3732",
+      "location": "Aberdeen, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "charlie.wright33",
+    "password": "rwppuYUsl92k",
+    "account_id": "ACC-5FE6C4B9",
+    "balance": 1957.31,
+    "personal_data": {
+      "name": "Charlie Wright",
+      "email": "charlie.wright33@example.com",
+      "phone": "+44-39-5939-7869",
+      "location": "Nottingham, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "olivia.wilson16",
+    "password": "gBPsyj1eoV8h",
+    "account_id": "ACC-C8A6E260",
+    "balance": 6013.07,
+    "personal_data": {
+      "name": "Olivia Wilson",
+      "email": "olivia.wilson16@example.com",
+      "phone": "+44-70-7966-5029",
+      "location": "Birmingham, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "george.smith50",
+    "password": "xJ0vjygWLUcH",
+    "account_id": "ACC-9931EE6D",
+    "balance": 5870.96,
+    "personal_data": {
+      "name": "George Smith",
+      "email": "george.smith50@example.com",
+      "phone": "+44-39-3921-7486",
+      "location": "Coventry, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "william.jackson97",
+    "password": "sbLlijtPyG6b",
+    "account_id": "ACC-807416D8",
+    "balance": 7842.36,
+    "personal_data": {
+      "name": "William Jackson",
+      "email": "william.jackson97@example.com",
+      "phone": "+44-160-1365-9855",
+      "location": "Liverpool, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "jack.robinson78",
+    "password": "r5WttEtlud0r",
+    "account_id": "ACC-5D84C3A0",
+    "balance": 3384.13,
+    "personal_data": {
+      "name": "Jack Robinson",
+      "email": "jack.robinson78@example.com",
+      "phone": "+44-63-9458-3933",
+      "location": "Southampton, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "jack.martin13",
+    "password": "YjxSdY2MDeeH",
+    "account_id": "ACC-E9943F51",
+    "balance": 5581.67,
+    "personal_data": {
+      "name": "Jack Martin",
+      "email": "jack.martin13@example.com",
+      "phone": "+44-104-5547-9062",
+      "location": "Cardiff, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "charlie.martin27",
+    "password": "zRnfYm7rKQUh",
+    "account_id": "ACC-DDADDE85",
+    "balance": 13014.06,
+    "personal_data": {
+      "name": "Charlie Martin",
+      "email": "charlie.martin27@example.com",
+      "phone": "+44-132-8828-6503",
+      "location": "Brighton, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "michael.taylor83",
+    "password": "shm3MDfTaFET",
+    "account_id": "ACC-0098EB07",
+    "balance": 1926.76,
+    "personal_data": {
+      "name": "Michael Taylor",
+      "email": "michael.taylor83@example.com",
+      "phone": "+44-121-2760-8334",
+      "location": "Glasgow, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "emma.walker98",
+    "password": "xaL88A9ZGlZa",
+    "account_id": "ACC-7C49B838",
+    "balance": 11298.75,
+    "personal_data": {
+      "name": "Emma Walker",
+      "email": "emma.walker98@example.com",
+      "phone": "+44-124-8870-6271",
+      "location": "Edinburgh, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "mia.clark93",
+    "password": "IouLcIQ8FLUK",
+    "account_id": "ACC-0E039096",
+    "balance": 14276.87,
+    "personal_data": {
+      "name": "Mia Clark",
+      "email": "mia.clark93@example.com",
+      "phone": "+44-128-9131-7317",
+      "location": "Liverpool, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "emma.robinson96",
+    "password": "aUJCmccOYf1b",
+    "account_id": "ACC-E61E58D0",
+    "balance": 11244.53,
+    "personal_data": {
+      "name": "Emma Robinson",
+      "email": "emma.robinson96@example.com",
+      "phone": "+44-159-4590-5333",
+      "location": "London, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "james.thompson87",
+    "password": "m5RjcJMqGLYZ",
+    "account_id": "ACC-B4D42828",
+    "balance": 5418.52,
+    "personal_data": {
+      "name": "James Thompson",
+      "email": "james.thompson87@example.com",
+      "phone": "+44-110-1703-3958",
+      "location": "Edinburgh, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "olivia.wright48",
+    "password": "JeWoBcXleoH0",
+    "account_id": "ACC-2C2DEB97",
+    "balance": 9690.11,
+    "personal_data": {
+      "name": "Olivia Wright",
+      "email": "olivia.wright48@example.com",
+      "phone": "+44-137-2675-7055",
+      "location": "Birmingham, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "sophia.wright66",
+    "password": "4huVfkjERMU0",
+    "account_id": "ACC-82E74438",
+    "balance": 6246.2,
+    "personal_data": {
+      "name": "Sophia Wright",
+      "email": "sophia.wright66@example.com",
+      "phone": "+44-160-9652-3294",
+      "location": "Cardiff, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "jack.martin42",
+    "password": "2GE1yJ6c6crp",
+    "account_id": "ACC-F9BC248E",
+    "balance": 2855.61,
+    "personal_data": {
+      "name": "Jack Martin",
+      "email": "jack.martin42@example.com",
+      "phone": "+44-58-7897-7536",
+      "location": "Belfast, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "james.davies44",
+    "password": "UDN0iJq1r5rm",
+    "account_id": "ACC-2283E2C3",
+    "balance": 9572.18,
+    "personal_data": {
+      "name": "James Davies",
+      "email": "james.davies44@example.com",
+      "phone": "+44-164-7248-4301",
+      "location": "Sheffield, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "isabella.thompson10",
+    "password": "wDVY82JvIpHx",
+    "account_id": "ACC-B3474A61",
+    "balance": 966.3,
+    "personal_data": {
+      "name": "Isabella Thompson",
+      "email": "isabella.thompson10@example.com",
+      "phone": "+44-173-2582-2884",
+      "location": "Birmingham, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "thomas.evans90",
+    "password": "ppJ1YBH83sXo",
+    "account_id": "ACC-0824FDD8",
+    "balance": 2011.39,
+    "personal_data": {
+      "name": "Thomas Evans",
+      "email": "thomas.evans90@example.com",
+      "phone": "+44-75-1663-2751",
+      "location": "Cambridge, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "oliver.davies57",
+    "password": "aMVM0s7w6IqV",
+    "account_id": "ACC-09DC03F8",
+    "balance": 2329.1,
+    "personal_data": {
+      "name": "Oliver Davies",
+      "email": "oliver.davies57@example.com",
+      "phone": "+44-143-2938-7375",
+      "location": "Southampton, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "sarah.wilson41",
+    "password": "mr50rZmY009d",
+    "account_id": "ACC-EF12D287",
+    "balance": 3015.84,
+    "personal_data": {
+      "name": "Sarah Wilson",
+      "email": "sarah.wilson41@example.com",
+      "phone": "+44-37-9774-9971",
+      "location": "Birmingham, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "jacob.brown19",
+    "password": "KsK2TxjgrK5G",
+    "account_id": "ACC-EAD43122",
+    "balance": 5296.91,
+    "personal_data": {
+      "name": "Jacob Brown",
+      "email": "jacob.brown19@example.com",
+      "phone": "+44-72-5348-6402",
+      "location": "Nottingham, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "thomas.evans44",
+    "password": "mYlLAp98GvYw",
+    "account_id": "ACC-D92385EB",
+    "balance": 6658.55,
+    "personal_data": {
+      "name": "Thomas Evans",
+      "email": "thomas.evans44@example.com",
+      "phone": "+44-95-3698-1854",
+      "location": "Coventry, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "isabella.lee84",
+    "password": "0u9rWd0N3cqu",
+    "account_id": "ACC-7B6C8992",
+    "balance": 14029.06,
+    "personal_data": {
+      "name": "Isabella Lee",
+      "email": "isabella.lee84@example.com",
+      "phone": "+44-189-7334-1800",
+      "location": "Oxford, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "david.harris98",
+    "password": "4qpQ2a3NvB1l",
+    "account_id": "ACC-70F490C3",
+    "balance": 7036.38,
+    "personal_data": {
+      "name": "David Harris",
+      "email": "david.harris98@example.com",
+      "phone": "+44-89-5062-6358",
+      "location": "Coventry, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "james.clark26",
+    "password": "dVfCv25nQRID",
+    "account_id": "ACC-9F896954",
+    "balance": 13145.38,
+    "personal_data": {
+      "name": "James Clark",
+      "email": "james.clark26@example.com",
+      "phone": "+44-101-6807-6788",
+      "location": "Manchester, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "james.davies88",
+    "password": "cwK7wEjnR1bm",
+    "account_id": "ACC-2DCEF21F",
+    "balance": 12767.65,
+    "personal_data": {
+      "name": "James Davies",
+      "email": "james.davies88@example.com",
+      "phone": "+44-177-5650-4279",
+      "location": "Leicester, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "sophia.wilson87",
+    "password": "lpIrfcRZXL5Y",
+    "account_id": "ACC-88B84F0B",
+    "balance": 12214.72,
+    "personal_data": {
+      "name": "Sophia Wilson",
+      "email": "sophia.wilson87@example.com",
+      "phone": "+44-138-7663-2904",
+      "location": "Aberdeen, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "sophia.jones91",
+    "password": "5p7Z1UddD0PY",
+    "account_id": "ACC-1566A21B",
+    "balance": 964.12,
+    "personal_data": {
+      "name": "Sophia Jones",
+      "email": "sophia.jones91@example.com",
+      "phone": "+44-84-4713-2713",
+      "location": "Glasgow, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "harry.harris38",
+    "password": "FupD0DdN98zY",
+    "account_id": "ACC-0A64F46E",
+    "balance": 13344.08,
+    "personal_data": {
+      "name": "Harry Harris",
+      "email": "harry.harris38@example.com",
+      "phone": "+44-83-4050-2772",
+      "location": "Bristol, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "emily.johnson83",
+    "password": "zHgYnW1KEcia",
+    "account_id": "ACC-D58A831C",
+    "balance": 8653.8,
+    "personal_data": {
+      "name": "Emily Johnson",
+      "email": "emily.johnson83@example.com",
+      "phone": "+44-137-9438-5702",
+      "location": "Southampton, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "jack.thomas35",
+    "password": "QPniETDyL7n1",
+    "account_id": "ACC-6ED626F0",
+    "balance": 397.28,
+    "personal_data": {
+      "name": "Jack Thomas",
+      "email": "jack.thomas35@example.com",
+      "phone": "+44-67-7723-8798",
+      "location": "Liverpool, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "harry.wright82",
+    "password": "tpU1q6QHEvhc",
+    "account_id": "ACC-6A0BD499",
+    "balance": 8668.43,
+    "personal_data": {
+      "name": "Harry Wright",
+      "email": "harry.wright82@example.com",
+      "phone": "+44-75-4250-9367",
+      "location": "Glasgow, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "mia.thompson66",
+    "password": "L6Qy4vckk4ce",
+    "account_id": "ACC-5C3D3113",
+    "balance": 9954.98,
+    "personal_data": {
+      "name": "Mia Thompson",
+      "email": "mia.thompson66@example.com",
+      "phone": "+44-30-1609-4751",
+      "location": "Brighton, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "sarah.wilson26",
+    "password": "bVYHam7QGYVn",
+    "account_id": "ACC-0DD185A3",
+    "balance": 8114.65,
+    "personal_data": {
+      "name": "Sarah Wilson",
+      "email": "sarah.wilson26@example.com",
+      "phone": "+44-105-3393-5279",
+      "location": "Brighton, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "jack.evans84",
+    "password": "V8shd6IHmI0M",
+    "account_id": "ACC-40783853",
+    "balance": 7732.94,
+    "personal_data": {
+      "name": "Jack Evans",
+      "email": "jack.evans84@example.com",
+      "phone": "+44-94-6097-2149",
+      "location": "Leeds, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "noah.evans76",
+    "password": "ZBHkZlLQGd5N",
+    "account_id": "ACC-83CC3FE7",
+    "balance": 3109.21,
+    "personal_data": {
+      "name": "Noah Evans",
+      "email": "noah.evans76@example.com",
+      "phone": "+44-41-6478-8032",
+      "location": "Liverpool, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "charlie.white72",
+    "password": "i9ED8RWOVXre",
+    "account_id": "ACC-0B0EDC15",
+    "balance": 14797.34,
+    "personal_data": {
+      "name": "Charlie White",
+      "email": "charlie.white72@example.com",
+      "phone": "+44-100-8970-8849",
+      "location": "Liverpool, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "jacob.davies55",
+    "password": "IzHHqz7WLH00",
+    "account_id": "ACC-E653C066",
+    "balance": 3970.16,
+    "personal_data": {
+      "name": "Jacob Davies",
+      "email": "jacob.davies55@example.com",
+      "phone": "+44-136-1739-8022",
+      "location": "Newcastle, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "olivia.brown49",
+    "password": "oiqkp7xKTajQ",
+    "account_id": "ACC-9ADEC8F0",
+    "balance": 11598.08,
+    "personal_data": {
+      "name": "Olivia Brown",
+      "email": "olivia.brown49@example.com",
+      "phone": "+44-170-4096-7483",
+      "location": "Aberdeen, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "sarah.robinson66",
+    "password": "K3ojwWN5vzok",
+    "account_id": "ACC-EA6CE354",
+    "balance": 7017.74,
+    "personal_data": {
+      "name": "Sarah Robinson",
+      "email": "sarah.robinson66@example.com",
+      "phone": "+44-109-7422-9536",
+      "location": "Glasgow, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "isabella.brown77",
+    "password": "U7tfKTNcKKMp",
+    "account_id": "ACC-E0CE8654",
+    "balance": 12528.56,
+    "personal_data": {
+      "name": "Isabella Brown",
+      "email": "isabella.brown77@example.com",
+      "phone": "+44-73-7982-8886",
+      "location": "Coventry, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "oliver.taylor69",
+    "password": "uQBgf0OuKTUz",
+    "account_id": "ACC-5DADB0B5",
+    "balance": 7959.93,
+    "personal_data": {
+      "name": "Oliver Taylor",
+      "email": "oliver.taylor69@example.com",
+      "phone": "+44-145-6044-7746",
+      "location": "Belfast, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "george.martin40",
+    "password": "A3sh5ylqf2pK",
+    "account_id": "ACC-0019AECF",
+    "balance": 4440.88,
+    "personal_data": {
+      "name": "George Martin",
+      "email": "george.martin40@example.com",
+      "phone": "+44-103-4939-2395",
+      "location": "Leeds, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "michael.martin83",
+    "password": "jRdKUqFzPcLK",
+    "account_id": "ACC-9EA72003",
+    "balance": 6158.07,
+    "personal_data": {
+      "name": "Michael Martin",
+      "email": "michael.martin83@example.com",
+      "phone": "+44-52-3766-1193",
+      "location": "Leeds, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "harry.jackson43",
+    "password": "UIDDD6WE51OG",
+    "account_id": "ACC-AC30C1FC",
+    "balance": 13718.35,
+    "personal_data": {
+      "name": "Harry Jackson",
+      "email": "harry.jackson43@example.com",
+      "phone": "+44-107-3008-7419",
+      "location": "Belfast, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "james.clark56",
+    "password": "IaC3sSpJNFjl",
+    "account_id": "ACC-F8A290AD",
+    "balance": 982.16,
+    "personal_data": {
+      "name": "James Clark",
+      "email": "james.clark56@example.com",
+      "phone": "+44-112-5228-4677",
+      "location": "Brighton, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "emma.martin95",
+    "password": "gB0jSd1QZAgC",
+    "account_id": "ACC-4418CB23",
+    "balance": 6246.35,
+    "personal_data": {
+      "name": "Emma Martin",
+      "email": "emma.martin95@example.com",
+      "phone": "+44-57-1558-8098",
+      "location": "Coventry, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "charlie.wilson95",
+    "password": "w1Tr1JykD8sp",
+    "account_id": "ACC-85AAA383",
+    "balance": 1837.55,
+    "personal_data": {
+      "name": "Charlie Wilson",
+      "email": "charlie.wilson95@example.com",
+      "phone": "+44-59-6190-2967",
+      "location": "Leicester, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "olivia.wilson14",
+    "password": "I51bAEeQCupZ",
+    "account_id": "ACC-CE08B03E",
+    "balance": 10721.02,
+    "personal_data": {
+      "name": "Olivia Wilson",
+      "email": "olivia.wilson14@example.com",
+      "phone": "+44-159-5015-5213",
+      "location": "Oxford, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "noah.wright41",
+    "password": "6ua8TCuOjpe8",
+    "account_id": "ACC-E1863C9C",
+    "balance": 13894.41,
+    "personal_data": {
+      "name": "Noah Wright",
+      "email": "noah.wright41@example.com",
+      "phone": "+44-162-9705-4893",
+      "location": "Coventry, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "oliver.wright17",
+    "password": "c2u3mbYFyyKA",
+    "account_id": "ACC-13BA4B32",
+    "balance": 4459.2,
+    "personal_data": {
+      "name": "Oliver Wright",
+      "email": "oliver.wright17@example.com",
+      "phone": "+44-156-1113-5118",
+      "location": "Nottingham, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "james.smith50",
+    "password": "BjOsvCoVmEgm",
+    "account_id": "ACC-418D3578",
+    "balance": 1165.51,
+    "personal_data": {
+      "name": "James Smith",
+      "email": "james.smith50@example.com",
+      "phone": "+44-143-5287-8808",
+      "location": "Oxford, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "charlie.clark58",
+    "password": "bdX4Do1LR70M",
+    "account_id": "ACC-11A86263",
+    "balance": 4278.25,
+    "personal_data": {
+      "name": "Charlie Clark",
+      "email": "charlie.clark58@example.com",
+      "phone": "+44-60-9671-7130",
+      "location": "Cambridge, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "isabella.lee99",
+    "password": "Yi3dxC6CDU2Y",
+    "account_id": "ACC-B9FBE291",
+    "balance": 4866.51,
+    "personal_data": {
+      "name": "Isabella Lee",
+      "email": "isabella.lee99@example.com",
+      "phone": "+44-50-3890-5525",
+      "location": "Leeds, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "charlie.thompson68",
+    "password": "o1Q2MfxhOiGn",
+    "account_id": "ACC-15259D05",
+    "balance": 2543.23,
+    "personal_data": {
+      "name": "Charlie Thompson",
+      "email": "charlie.thompson68@example.com",
+      "phone": "+44-51-1457-8577",
+      "location": "Leicester, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "david.thomas90",
+    "password": "oIbHlK5KXwVk",
+    "account_id": "ACC-02079B07",
+    "balance": 6163.5,
+    "personal_data": {
+      "name": "David Thomas",
+      "email": "david.thomas90@example.com",
+      "phone": "+44-136-3696-3503",
+      "location": "Manchester, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "charlie.johnson26",
+    "password": "Bv71pjO4E4cD",
+    "account_id": "ACC-75EEB629",
+    "balance": 1082.75,
+    "personal_data": {
+      "name": "Charlie Johnson",
+      "email": "charlie.johnson26@example.com",
+      "phone": "+44-153-5543-4203",
+      "location": "Leicester, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "george.johnson17",
+    "password": "KUt1gCiJg7Os",
+    "account_id": "ACC-B6C3925C",
+    "balance": 4269.77,
+    "personal_data": {
+      "name": "George Johnson",
+      "email": "george.johnson17@example.com",
+      "phone": "+44-113-7483-2154",
+      "location": "Aberdeen, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "emily.thompson20",
+    "password": "isSR8a48l2f3",
+    "account_id": "ACC-2A37D5B2",
+    "balance": 13233.64,
+    "personal_data": {
+      "name": "Emily Thompson",
+      "email": "emily.thompson20@example.com",
+      "phone": "+44-30-1593-8106",
+      "location": "Liverpool, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "emily.thomas26",
+    "password": "JXChhBoBjACc",
+    "account_id": "ACC-B3399ECC",
+    "balance": 5399.19,
+    "personal_data": {
+      "name": "Emily Thomas",
+      "email": "emily.thomas26@example.com",
+      "phone": "+44-171-7441-4364",
+      "location": "Coventry, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  },
+  {
+    "username": "jack.jackson57",
+    "password": "59tGL3ax9TmM",
+    "account_id": "ACC-133507E9",
+    "balance": 4588.43,
+    "personal_data": {
+      "name": "Jack Jackson",
+      "email": "jack.jackson57@example.com",
+      "phone": "+44-176-5924-3904",
+      "location": "Cambridge, UK",
+      "trusted_devices": [],
+      "security": {
+        "failed_login_attempts": 0,
+        "locked_until": null,
+        "permanently_locked": false
+      }
+    }
+  }
+]

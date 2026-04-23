@@ -1,0 +1,58 @@
+version: "3.9"
+
+networks:
+  banking_net:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 192.168.10.0/24
+
+services:
+
+  # Machine 1: Banking Server
+  banking_server:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile.server
+    container_name: banking_server
+    networks:
+      banking_net:
+        ipv4_address: 192.168.10.10
+    ports:
+      - "5001:5000"
+    volumes:
+      - ../data:/app/data
+    environment:
+      - FLASK_ENV=development
+
+      # Threat 1 — Account Takeover
+      - DEFENSE_MFA=false
+      - DEFENSE_PASSWORD_HASH=false
+      - DEFENSE_TRANSFER_GUARD=false
+      - TRANSFER_GUARD_THRESHOLD=3000
+
+      # Threat 2 — HTTP Flood
+      - DEFENSE_RATE_LIMIT=false
+
+      # Threat 3 — Data Exfiltration
+      - DEFENSE_SESSION_AUTH=false
+      - DEFENSE_DATA_MIN=false
+
+  # Machine 2: Attacker 
+  attacker:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile.attacker
+    container_name: attacker
+    networks:
+      banking_net:
+        ipv4_address: 192.168.10.20
+    environment:
+      - TARGET=http://192.168.10.10:5000
+    depends_on:
+      - banking_server
+    stdin_open: true
+    tty: true
+    command: ["tail", "-f", "/dev/null"]
+    volumes:
+      - ../data:/app/data

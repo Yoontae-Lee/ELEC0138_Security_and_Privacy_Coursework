@@ -1,0 +1,11 @@
+username,account_id,balance,name,email,phone,location
+thomas.evans90,ACC-0824FDD8,2011.39,Thomas Evans,thomas.evans90@example.com,+44-75-1663-2751,"Cambridge, UK"
+david.thomas90,ACC-02079B07,6163.5,David Thomas,david.thomas90@example.com,+44-136-3696-3503,"Manchester, UK"
+emma.brown18,ACC-4828A96C,11080.56,Emma Brown,emma.brown18@example.com,+44-54-4670-6017,"Nottingham, UK"
+william.robinson52,ACC-827E0674,13548.56,William Robinson,william.robinson52@example.com,+44-83-9377-5137,"Oxford, UK"
+charlie.smith82,ACC-14EBC916,7763.54,Charlie Smith,charlie.smith82@example.com,+44-57-2913-1972,"Southampton, UK"
+george.johnson23,ACC-2B9E4F80,9646.53,George Johnson,george.johnson23@example.com,+44-32-7013-6260,"Brighton, UK"
+jessica.clark30,ACC-4A456012,367.92,Jessica Clark,jessica.clark30@example.com,+44-85-3273-8449,"Manchester, UK"
+jacob.davies55,ACC-E653C066,3970.16,Jacob Davies,jacob.davies55@example.com,+44-136-1739-8022,"Newcastle, UK"
+alice.kim42,ACC-66F349D6,4800.0,Alice Kim,alice.kim42@example.com,+44-20-7946-0101,"London, UK"
+harry.harris38,ACC-0A64F46E,13344.08,Harry Harris,harry.harris38@example.com,+44-83-4050-2772,"Bristol, UK"

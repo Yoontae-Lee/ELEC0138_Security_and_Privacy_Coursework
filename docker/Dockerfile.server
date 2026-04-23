@@ -1,0 +1,15 @@
+FROM python:3.11-slim
+WORKDIR /app
+RUN pip install flask
+
+COPY models.py .
+COPY banking_system.py .
+COPY run.py .
+COPY app.py .
+COPY mfa_mailer.py .
+COPY templates/ templates/
+RUN mkdir -p data
+
+EXPOSE 5000
+
+CMD ["python3", "app.py"]
