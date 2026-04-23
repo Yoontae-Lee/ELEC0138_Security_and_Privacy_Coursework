@@ -211,8 +211,6 @@ Important notes:
 - Python 3.11 should be specified when creating the Conda environment, for example with `conda create -n mock-banking-system python=3.11`.
 - `requirements.txt` should contain Python packages such as Flask and requests.
 - Do not write `python=3.11` inside `requirements.txt`.
-- If you want to specify the Python version in a file, use `environment.yml` instead.
 
-## Local Run Notes
 
 
