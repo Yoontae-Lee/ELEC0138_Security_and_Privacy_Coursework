@@ -164,24 +164,6 @@ Docker is the recommended way to run this project. However, if you want a local 
 pip install -r requirements.txt
 ```
 
-## Local Run Notes
-
-A local non-Docker run is only recommended for development and quick testing.
-
-Typical local command:
-
-```bash
-python run.py
-```
-
-If you want to execute attack scripts locally, make sure the Flask server is already running and then run:
-
-```bash
-python attacks/account_takeover.py
-python attacks/http_dos.py
-python attacks/data_exfiltration.py
-```
-
 Depending on your folder layout, you may need to adjust paths or environment variables when running locally.
 
 ## Notes
